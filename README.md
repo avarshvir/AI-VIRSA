@@ -79,3 +79,8 @@ This project is licensed under the MIT License.
 
 ## Developer
 Arshvir
+Instagram: https://www.instagram.com/avarshvir
+GitLab:
+Stack Overflow:
+Website: https://arshvir.w3spaces.com/
+Company Website: https://jaihodigital.w3spaces.com
