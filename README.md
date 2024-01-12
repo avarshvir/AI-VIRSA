@@ -69,5 +69,13 @@ This project is an AI personal assistant designed to perform various tasks, inte
 ```bash
 git clone https://github.com/avarshvir/AI-VIRSA.git
 cd AI-VIRSA
-# Set up your virtual environment (recommended)
-pip install -r requirements.txt
+```
+## Licence
+This project is licensed under the MIT License.
+
+## Acknowledgement
+- Mention any third-party libraries or tools used.
+- Provide credit to inspirational sources or resources.
+
+## Developer
+Arshvir
