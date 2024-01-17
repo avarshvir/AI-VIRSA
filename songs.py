@@ -8,6 +8,7 @@ def play_random_song():
     music_path = os.path.join(music_directory, random_song)
     os.startfile(music_path)
 
+
 '''
 def search_and_play_song(song_name):
     music_directory = r"E:\Python Project\Python AI\songs"

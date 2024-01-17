@@ -60,9 +60,9 @@ This project is an AI personal assistant designed to perform various tasks, inte
 
 ### Requirements
 
-- Python (version)
+- Python
 - SQLite database
-- Dependencies (list them)
+- Dependencies (updating soon)
 
 ### Installation
 
@@ -74,13 +74,14 @@ cd AI-VIRSA
 This project is licensed under the MIT License.
 
 ## Acknowledgement
-- Mention any third-party libraries or tools used.
-- Provide credit to inspirational sources or resources.
+- Mention any third-party libraries or tools used.(updating soon...)
+- Provide credit to inspirational sources or resources.(updating soon...)
 
-## Developer
-Arshvir
-Instagram: https://www.instagram.com/avarshvir
-GitLab:
-Stack Overflow:
-Website: https://arshvir.w3spaces.com/
-Company Website: https://jaihodigital.w3spaces.com
+## Developer Information
+- Developer Name : Arshvir
+- Instagram : https://www.instagram.com/avarshvir
+- Youtube : https://www.youtube.com/@arshvir
+- GitLab : https://gitlab.com/arshvir
+- Stack Overflow :
+- Personal Website : https://arshvir.w3spaces.com/
+- Company Website : https://jaihodigital.w3spaces.com
