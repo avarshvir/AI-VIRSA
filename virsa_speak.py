@@ -3,14 +3,12 @@ import random
 import webbrowser
 import win32com.client
 import speech_recognition as sr
-import openai
 import os
-#import datetime
 
 
 from songs import play_random_song
 from virsa_date_time import *
-from wikipedia_content import result
+#from wikipedia_content import result
 
 '''def search_and_play_song(song_name):
     music_directory = r"E:\Python Project\Python AI\songs"
@@ -68,9 +66,11 @@ def takeCommand():
 
 
 if __name__ == '__main__':
-    #print("Enter the word you want to speak it out by computer")
     print('VIRSA')
-    speaker.Speak("Hello, I am VIRSA (Virtual Intelligent Response System of Arshvir. How can I assist you?")
+    speaker.Speak(greet())
+    print(greet())
+    #print("Enter the word you want to speak it out by computer")
+
     while True:
         query = takeCommand()
         sites = [["youtube", "https://www.youtube.com"], ["wikipedia", "https://www.wikipedia.com"],["google", "https://www.google.com"]]
@@ -79,6 +79,12 @@ if __name__ == '__main__':
                 speaker.Speak(f"Opening {site[0]} sir...")
                 webbrowser.open(site[1])
                 #break
+
+        madeBy = takeCommand()
+        madeBy = [["created you"], ["developed you"], ["made you"]]
+        for madeBy in madeBy:
+            if f"Who {madeBy[0]}".lower() in madeBy.lower():
+                speaker.Speak(f"I am {madeBy[0]} by Arshvir")
 
         if "play music" in query.lower() or "open music" in query.lower():
             print("Sure! Which song would you like to listen to?")
@@ -97,9 +103,6 @@ if __name__ == '__main__':
             response = random.choice(time_responses)
             speaker.Speak(response)
 
-        elif "Tiger" or "tiger" in query:
-            speaker.Speak(result)
-            print(result)
 
 
         else :
