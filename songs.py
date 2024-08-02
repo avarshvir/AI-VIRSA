@@ -2,7 +2,7 @@
 import random
 import os
 def play_random_song():
-    music_directory = r"E:\Python Project\Python AI\songs"
+    music_directory = r"E:\Python Project\Python AI\AI-VIRSA\songs"
     songs = os.listdir(music_directory)
     random_song = random.choice(songs)
     music_path = os.path.join(music_directory, random_song)

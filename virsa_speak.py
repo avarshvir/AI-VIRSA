@@ -80,11 +80,11 @@ if __name__ == '__main__':
                 webbrowser.open(site[1])
                 #break
 
-        madeBy = takeCommand()
-        madeBy = [["created you"], ["developed you"], ["made you"]]
-        for madeBy in madeBy:
-            if f"Who {madeBy[0]}".lower() in madeBy.lower():
-                speaker.Speak(f"I am {madeBy[0]} by Arshvir")
+        # madeBy = takeCommand()
+        # madeBy = [["created you"], ["developed you"], ["made you"]]
+        # for madeBy in madeBy:
+        #     if f"Who {madeBy[0]}".lower() in madeBy.lower():
+        #         speaker.Speak(f"I am {madeBy[0]} by Arshvir")
 
         if "play music" in query.lower() or "open music" in query.lower():
             print("Sure! Which song would you like to listen to?")
