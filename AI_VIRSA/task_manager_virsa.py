@@ -60,7 +60,7 @@ def get_top_news():
     speak(top_news)
 
 
-def play_music(genre):
+"""def play_music(genre):
     global listening
     genre_folders = {
         "soothing": "soothing_songs",
@@ -104,7 +104,44 @@ def monitor_music_process(process):
         time.sleep(1)
 
     listening = True
+"""
 
+#MUSIC_FOLDER = r"E:\Python Project\Python AI\AI-VIRSA\AI_VIRSA\Songs"
+
+def play_music(genre):
+    global listening
+    genre_folders = {
+        "soothing": "soothing_songs",
+        "romantic": "romantic_songs",
+        "gangster": "gangster_songs",
+        "party": "party_songs"
+    }
+
+    if genre in genre_folders:
+        genre_path = os.path.join(MUSIC_FOLDER, genre_folders[genre])
+        if os.path.exists(genre_path):
+            songs = [os.path.join(genre_path, song) for song in os.listdir(genre_path) if song.endswith('.mp3')]
+            if songs:
+                song_to_play = random.choice(songs)
+                speak(f"Playing a {genre} song.")
+                try:
+                    os.startfile(song_to_play)  # Open the mp3 file with the default media player
+                    thread = threading.Thread(target=monitor_music_process)
+                    thread.start()
+                except Exception as e:
+                    speak(f"An error occurred while trying to play the song: {e}")
+            else:
+                speak(f"No songs found in the {genre} genre.")
+        else:
+            speak(f"The {genre} genre folder does not exist.")
+    else:
+        speak("Sorry, I didn't understand the genre.")
+
+def monitor_music_process():
+    global listening
+    listening = False
+    time.sleep(120)  # Pause listening for 2 minutes
+    listening = True
 
 def check_news_keywords(task):
     with open("news_keywords.txt", "r") as file:

@@ -83,3 +83,102 @@ Playing a soothing song.
 I'm sorry, I don't know the answer to that.
 User: play soothing music
 I'm sorry, I don't know the answer to that.
+Good Evening Sir, What do you need help with?
+User: play music
+What genre of music would you like to listen to?
+Sorry, I didn't understand the genre.
+User: shooting shooting
+I'm sorry, I don't know the answer to that.
+User: play music
+What genre of music would you like to listen to?
+User: shooting shooting
+Sorry, I didn't understand the genre.
+Good Evening Sir, how can I help you?
+User: play music play music play music play music play music play music
+What genre of music would you like to listen to?
+User: shooting shooting shooting shooting
+Sorry, I didn't understand the genre.
+User: tell me about Tiger Shroff
+I'm sorry, I couldn't find any information about tiger shroff.
+User: tell me about tiger
+The tiger (Panthera tigris) is a member of the genus Panthera and the largest living cat species native to Asia. It has a powerful, muscular body with a large head and paws, a long tail and orange fur with black, mostly vertical stripes.
+I'm sorry, I don't know the answer to that.
+User: play music
+What genre of music would you like to listen to?
+User: shooting shooting
+Sorry, I didn't understand the genre.
+User: play music
+What genre of music would you like to listen to?
+User: soothing
+Playing a soothing song.
+I'm sorry, I don't know the answer to that.
+Good Evening Sir, I am happy to see you again.
+User: play music
+What genre of music would you like to listen to?
+User: soothing
+Playing a soothing song.
+I'm sorry, I don't know the answer to that.
+I'm sorry, I don't know the answer to that.
+User: play music
+What genre of music would you like to listen to?
+User: shooting shooting shooting shooting shooting shooting shooting shooting
+Sorry, I didn't understand the genre.
+User: play music
+What genre of music would you like to listen to?
+User: soothing
+Playing a soothing song.
+User: for me hello hello
+I'm sorry, I don't know the answer to that.
+I'm sorry, I don't know the answer to that.
+User: repeat it
+Repeating the last task.
+What genre of music would you like to listen to?
+User: soothing
+Playing a soothing song.
+User: Tom and Jerry song hello hello hello
+I'm sorry, I don't know the answer to that.
+User: your name
+My name is AI Assistant.
+User: what are today's top news
+Good Evening Sir, I am happy to see you again.
+User: play music for me
+What genre of music would you like to listen to?
+User: Tom and Jerry
+Sorry, I didn't understand the genre.
+User: soothing
+I'm sorry, I don't know the answer to that.
+I'm sorry, I don't know the answer to that.
+I'm sorry, I don't know the answer to that.
+I'm sorry, I don't know the answer to that.
+I'm sorry, I don't know the answer to that.
+Good Evening Sir, How can I assist you today?
+User: make data visualisation of sample data set
+I'm sorry, I don't know the answer to that.
+I'm sorry, I don't know the answer to that.
+User: visualisation
+I'm sorry, I don't know the answer to that.
+Good Evening Sir, Hi Boss, what's up?
+User: visualisation
+The dataset visualisation does not exist.
+User: visualisation visualisation
+The dataset visualisation visualisation does not exist.
+The data visualization for sample_dataset.csv has been created and saved at E:\Python Project\Python AI\AI-VIRSA\AI_VIRSA\Visualizations\sample_dataset.csv_visualization.png.
+Good Evening Sir, Hi Boss, what's up?
+User: visualisation
+I'm sorry, I don't know the answer to that.
+User: visualisation
+I'm sorry, I don't know the answer to that.
+Good Evening Sir, How can I assist you today?
+User: visualisation
+The dataset visualisation does not exist.
+The dataset sorry, i did not understand that. does not exist.
+Good Evening Sir, How can I assist you today?
+User: make data visualisation of sample data set
+The dataset sample data set does not exist.
+User: play music
+What genre of music would you like to listen to?
+User: shooting
+Sorry, I didn't understand the genre.
+The dataset sorry, i did not understand that. does not exist.
+User: open Instagram
+Opening instagram.com.
